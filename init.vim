@@ -26,9 +26,7 @@ Plug 'honza/vim-snippets'
 
 " Language Client
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-let g:coc_global_extensions = [
-  'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-snippets', 'coc-pyright', 'coc-highlight'
-]
+let g:coc_global_extensions = ['coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-snippets', 'coc-pyright', 'coc-highlight']
 
 call plug#end()
 
